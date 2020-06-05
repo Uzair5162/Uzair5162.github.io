@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+.page-container {
+    display: flex;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#name {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+#title {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    font-size: 5em;
+}
