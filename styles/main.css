@@ -11,12 +11,14 @@ body {
 
 #name {
     font-family: 'Zilla Slab', serif;
-    font-weight: 400;
-    font-size: 4em;
+    font-weight: 600;
+    font-size: 5em;
+    text-decoration: overline;
+
 }
 
 #title {
     font-family: 'Zilla Slab', serif;
-    font-weight: 600;
-    font-size: 5em;
+    font-weight: 400;
+    font-size: 4em;
 }
