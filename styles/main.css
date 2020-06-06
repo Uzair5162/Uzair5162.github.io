@@ -4,6 +4,7 @@
     margin-top: 10%;
 }
 
+/* Main page name and title */
 #name {
     font-family: 'Zilla Slab', serif;
     font-weight: 600;
@@ -12,7 +13,6 @@
     background-color: #B4D5FE;
     color: black;
 }
-
 #title {
     font-family: 'Zilla Slab', serif;
     font-weight: 400;
@@ -25,15 +25,26 @@
     justify-content: space-between;
 }
 
-.links {
+/* All links */
+.link {
     /* Text styling */
     color: #2a2a2a;
-    font-family: 'Lato';
+    font-family: 'Raleway';
     font-size: 1.5em;
     text-decoration: underline;
 }
-
-.links:hover {
+.link:hover {
     background-color: #B4D5FE;
     color: #2a2a2a;
+}
+
+/* Icons on contact page */
+.contactImg {
+    width: 5%;
+}
+
+p {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-size: 1.5em;
 }
