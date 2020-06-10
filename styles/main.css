@@ -4,6 +4,12 @@
     margin-top: 10%;
 }
 
+@media only screen and (max-width: 700px) {
+    .page-container {
+        margin:0px auto;
+    }
+}
+
 /* Main page name and title */
 #name {
     font-family: 'Zilla Slab', serif;
