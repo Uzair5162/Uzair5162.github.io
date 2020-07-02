@@ -16,7 +16,6 @@
     font-weight: 600;
     font-size: 5em;
     text-decoration: overline;
-    background-color: #B4D5FE;
     color: black;
 }
 #title {
@@ -33,6 +32,7 @@
 }
 .navBar > a{
     margin-right: 5%;
+    font-size: 1.5em;
 }
 
 /* All links */
@@ -40,7 +40,6 @@
     /* Text styling */
     color: #2a2a2a;
     font-family: 'Zilla Slab';
-    font-size: 1.5em;
     text-decoration: underline;
 }
 .link:hover {
@@ -51,6 +50,7 @@
 /* Icons on contact page */
 .contactImg {
     width: 2.5em;
+    font-size: 1.5em;
 }
 
 p {
