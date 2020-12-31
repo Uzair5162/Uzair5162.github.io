@@ -20,7 +20,7 @@
 }
 #title {
     font-family: 'Zilla Slab', serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 4em;
 }
 
@@ -52,6 +52,27 @@
     width: 2.5em;
     font-size: 1.5em;
 }
+
+/* Portfolio page expanding cards */
+.card-wrapper {
+    font-size: 1.5em;
+    box-shadow: 0 0.6em 1.4em 0.2em #b4b4b4;    
+    border-radius: 6px;
+    max-height: 5em;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center;
+    width: 25%;  
+    transition: max-height 500ms ease-in-out;  
+}
+.card-wrapper:hover {
+    box-shadow: 0 0.6em 1.4em 0.2em #b4b4b4;    
+    cursor: pointer;
+    max-height: 300px;
+}
+
+
+
 
 p {
     font-family: "Zilla Slab", serif;
