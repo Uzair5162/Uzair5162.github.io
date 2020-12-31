@@ -1,7 +1,7 @@
 .page-container {
     height: 100%;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -56,21 +56,23 @@
 /* Portfolio page expanding cards */
 .card-wrapper {
     font-size: 1.5em;
-    box-shadow: 0 0.6em 1.4em 0.2em #b4b4b4;    
+    box-shadow: 0 0.6em 1.4em 0.1em #b4b4b4;    
     border-radius: 6px;
     max-height: 5em;
     overflow: hidden;
     padding: 1em;
     text-align: center;
-    width: 25%;  
-    transition: max-height 500ms ease-in-out;  
+    width: 30%;  
+    transition: max-height 350ms ease-in-out;  
 }
 .card-wrapper:hover {
-    box-shadow: 0 0.6em 1.4em 0.2em #b4b4b4;    
+    box-shadow: 0 0.6em 1.4em 0.1em #797979;    
     cursor: pointer;
-    max-height: 300px;
+    max-height: 19em;
 }
-
+.card-reveal {
+    font-size: 0.5em;
+}
 
 
 
