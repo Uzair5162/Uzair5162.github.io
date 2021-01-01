@@ -68,12 +68,21 @@
 .card-wrapper:hover {
     box-shadow: 0 0.6em 1.4em 0.1em #797979;    
     cursor: pointer;
-    max-height: 19em;
+    max-height: 22em;
 }
 .card-reveal {
     font-size: 0.5em;
 }
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio-btn {
+    height: 2em;
+    width: 6em;
+    font-size: 1.5em;
 
+}
 
 
 p {
