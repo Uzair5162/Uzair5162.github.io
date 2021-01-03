@@ -55,9 +55,14 @@
 }
 
 /* Portfolio page expanding cards */
+.full-container {
+    display: flex;
+    justify-content: space-between;
+}
 .card-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: left;
+    flex-direction: column;
 }
 .card-wrapper {
     font-size: 1.5em;
@@ -67,8 +72,9 @@
     overflow: hidden;
     padding: 1em;
     text-align: center;
-    width: 30%;
-    transition: max-height 350ms ease-in-out;  
+    width: 12.5em;
+    margin-bottom: 2em;
+    transition: max-height 350ms ease-in-out;
 }
 .card-wrapper:hover {
     box-shadow: 0 0.6em 1.4em 0.1em #797979;    
