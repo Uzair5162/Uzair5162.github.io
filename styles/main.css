@@ -4,10 +4,11 @@
     margin-top: 7%;
     margin-right: 10%;
 }
-
 @media only screen and (max-width: 700px) {
     .page-container {
-        margin:0px auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50%;
     }
 }
 
@@ -19,10 +20,19 @@
     text-decoration: overline;
     color: black;
 }
+
 #title {
     font-family: 'Zilla Slab', serif;
     font-weight: 300;
     font-size: 4em;
+}
+@media only screen and (max-width: 700px) {
+    #name {
+        font-size: 4em;
+    }
+    #title {
+        font-size: 2em;
+    }
 }
 
 .navBar {
@@ -58,6 +68,7 @@
 .full-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card-container {
     display: flex;
