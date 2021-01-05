@@ -85,12 +85,12 @@
     text-align: center;
     width: 12.5em;
     margin-bottom: 2em;
-    transition: max-height 350ms ease-in-out;
+    transition: max-height 400ms ease-in-out;
 }
 .card-wrapper:hover {
     box-shadow: 0 0.6em 1.4em 0.1em #797979;    
     cursor: pointer;
-    max-height: 22em;
+    max-height: 28em;
 }
 .card-reveal {
     font-size: 0.5em;
