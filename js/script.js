@@ -99,23 +99,23 @@ const pointer = {
 	init(canvas) {
 		this.x = canvas.width * 0.5;
 		this.y = canvas.height * 0.5;
-		["mousedown", "touchstart"].forEach((event, touch) => {
-			document.addEventListener(
-				event,
-				e => {
-					if (touch) {
-						e.preventDefault();
-						this.x = e.targetTouches[0].clientX;
-						this.y = e.targetTouches[0].clientY;
-					} else {
-						this.x = e.clientX;
-						this.y = e.clientY;
-					}
-					init();
-				},
-				false
-			);
-		});
+		// ["mousedown", "touchstart"].forEach((event, touch) => {
+		// 	document.addEventListener(
+		// 		event,
+		// 		e => {
+		// 			if (touch) {
+		// 				e.preventDefault();
+		// 				this.x = e.targetTouches[0].clientX;
+		// 				this.y = e.targetTouches[0].clientY;
+		// 			} else {
+		// 				this.x = e.clientX;
+		// 				this.y = e.clientY;
+		// 			}
+		// 			init();
+		// 		},
+		// 		false
+		// 	);
+		// });
 	}
 };
 // init pen
