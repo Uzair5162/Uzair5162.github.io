@@ -1,2 +1,2 @@
-# http://uzairr.me/
-My personal website
+# [uzairr.me](http://uzairr.me/)
+my personal website
